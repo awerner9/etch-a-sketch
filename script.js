@@ -4,3 +4,5 @@ for(let i = 0; i < 256; i++) {
     const container = document.getElementById('container');
     container.appendChild(newDiv);  
 }
+
+addEventListener("mouseover", (event) => {})
