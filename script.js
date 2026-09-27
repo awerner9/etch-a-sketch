@@ -1,8 +1,10 @@
-for(let i = 0; i < 256; i++) {
-    const newDiv = document.createElement('div');
-    newDiv.classList.add('grid-item');
-    const container = document.getElementById('container');
-    container.appendChild(newDiv);  
-}
+for (let i = 0; i < 16 * 16; i++) {
+  const newDiv = document.createElement("div");
+  newDiv.classList.add("grid-item");
+  const container = document.getElementById("container");
+  container.appendChild(newDiv);
 
-addEventListener("mouseover", (event) => {})
+  newDiv.addEventListener("mouseenter", () => {
+    newDiv.classList.add("draw");
+  });
+}

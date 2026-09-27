@@ -6,9 +6,9 @@
 }
 
 .grid-item {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
-.grid-item:hover {
-    background-color: black;
+.draw {
+  background-color: black;
 }
